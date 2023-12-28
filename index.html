@@ -113,14 +113,15 @@ TO-DO:
 		  
 		  <div class="work__box">
             <div class="work__text">
-              <h3>Land Use & Land Cover Classification of Satellite Imagery</h3>
+              <h3>Satellite Image Classification</h3>
               <p>
-                Extraction of color and texture features as well as EfficientNetV2 embedding vectors from images in the <a href="https://arxiv.org/abs/1709.00029">EuroSAT</a> benchmark dataset for predicting class membership with logistic regression and XGBoost.
+                Land use and land cover classification performed on aerial satellite images sourced from the <a href="https://arxiv.org/abs/1709.00029">EuroSAT</a> benchmark dataset.
+				Utilized mean RGB values and k-means color quantization to extract color information, GLCM statistical properties to extract textural information, and a pre-trained EfficientNetV2 model to extract embedding vectors from images.
               </p>
               <ul class="work__list">
                 <li>Tensorflow/Keras</li>
-                <li>Librosa</li>
-                <li>Audiomentations</li>
+                <li>scikit-image</li>
+                <li>scikit-learn</li>
               </ul>
 
               <div class="work__links">
@@ -133,7 +134,7 @@ TO-DO:
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/stft_vit.png" class="work__image" alt="Schematic of the ViT architecture used to perform classification on STFT inputs">
+              <img src="./images/eurosat.jpg" class="work__image" alt="Sample images from EuroSAT dataset">
             </div>
           </div>
 
