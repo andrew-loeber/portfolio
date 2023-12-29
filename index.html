@@ -88,8 +88,15 @@ TO-DO:
           <div class="work__box">
             <div class="work__text">
               <h3>Birdsong Audio Classification</h3>
+			  <p style="font-size:0.75em">
+				<i>
+					Collaboration with Amina Alavi, Hamsini Sankaran, and Rachel Gao
+				</i>
+			  </p>
               <p>
-                Classification of species present in birdsong recordings using customized Vision Transformer (ViT) architecture on Short-Term Fourier Transform (STFT) spectrograms extracted from audio.
+                Classification of audio recordings sourced from <a href="https://www.kaggle.com/competitions/birdclef-2023/data">BirdCLEF 2023</a> dataset by the primary bird species present.
+				<br><br>
+				We explored a variety of audio pre-processing techniques and model types before selecting Mel-frequency Cepstral Coefficients (MFCC), spectral centroids, and Short-Term Fourier Transform (STFT) spectrograms as our core input features, and 1D CNN, GRU RNN, and ViT architectures as our classifiers.
               </p>
               <ul class="work__list">
                 <li>Tensorflow/Keras</li>
@@ -98,11 +105,12 @@ TO-DO:
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>→</span>
+                <a href="./docs/birdsong_report.pdf" class="link__text">
+                  Presentation  
                 </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+				<p>|</p>
+                <a href="https://github.com/rachelgaoMIDS/207_final_project" class="link__text">
+                  Code
                 </a>
               </div>
             </div>
