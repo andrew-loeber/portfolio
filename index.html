@@ -96,7 +96,9 @@ TO-DO:
               <p>
                 Classification of audio recordings sourced from <a href="https://www.kaggle.com/competitions/birdclef-2023/data">BirdCLEF 2023</a> dataset by the primary bird species present.
 				<br><br>
-				We explored a variety of audio pre-processing techniques and model types before selecting Mel-frequency Cepstral Coefficients (MFCC), spectral centroids, and Short-Term Fourier Transform (STFT) spectrograms as our core input features, and 1D CNN, GRU RNN, and ViT architectures as our classifiers.
+				Focusing on a selection of three species from the original 264, we explored a wide variety of feature extraction methods, data augmentation techniques, and classifier types.
+				<br><br>
+				Using normalized STFT spectrograms with audio- and spectrogram-level augmentation applied as inputs to a customized <a href="https://arxiv.org/abs/2010.11929">Vision Transformer</a> model, we achieved a prediction accuracy of 94% on holdout data.
               </p>
               <ul class="work__list">
                 <li>Tensorflow/Keras</li>
@@ -122,6 +124,11 @@ TO-DO:
 		  <div class="work__box">
             <div class="work__text">
               <h3>Satellite Image Classification</h3>
+			  <p style="font-size:0.75em">
+				<i>
+					Collaboration with Zhifei Dong and Yeshwanth Somu
+				</i>
+			  </p>
               <p>
                 Land use and land cover classification performed with logistic regression and XGBoost on aerial satellite images sourced from the <a href="https://arxiv.org/abs/1709.00029">EuroSAT</a> benchmark dataset.
 				<br><br>
