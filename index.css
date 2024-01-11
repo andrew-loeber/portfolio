@@ -512,7 +512,7 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
-	filter: drop-shadow(0.5rem 0.5rem gray)
+	filter: drop-shadow(0 0 0.25rem white)
 }
 
 .client__logo {
