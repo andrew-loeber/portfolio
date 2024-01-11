@@ -512,6 +512,7 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
+	filter: drop-shadow(0.5rem 0.5rem gray)
 }
 
 .client__logo {
@@ -521,7 +522,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 1240px) {
     .client__logos {
-        overflow-x: scroll;
+        overflow-x: visible;
         padding: var(--gutter-normal);
     }
 
